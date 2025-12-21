@@ -1,0 +1,21 @@
+
+{% extends "navigationbar.html" %}
+{% load static %}
+{% block body %}
+    <div class="container mt-5">
+        <h2 class="text-center">About Us</h2>
+
+        <div class="row mt-5">
+            <div class="col-sm-4 text-center">
+                <img src="{% static 'images/Eshwar.jpeg' %}" width="200" heigt="100" class="img-responsive" style="border-radius:30px" alt="">
+            </div>
+            
+            <div class="col-sm-8 font-weight-bold mt-5">
+                Hello Friends ........... <br>
+                This is a simple Hospital Management Project developed by Eshwar Naik using HTML , CSS , Javascript , Bootstrap , Python Django and sqlite.
+            </div>
+        </div>
+     
+    </div>
+
+{% endblock %}
